@@ -16,7 +16,7 @@ public class BinarisKereses {
         }
         System.out.println();
 
-        for (int i = 0; i < tomb.length-1; i++){
+        for (int i = 0; i < tomb.length; i++){
             for (int j = i + 1; j <= tomb.length-1; j++) {
                 if (tomb[i] > tomb[j]) {
                     int tmp = tomb[i];
